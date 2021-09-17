@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+}
+
+.box1 {
+  margin: 0px auto 0px auto; /* 시계방향으로 top, right, bottom, left 순 */
+  border: 5px solid black;
+  padding: 10px 10px; /* 시계방향으로 top, right, bottom, left 순으로, bottom값이 비었을경우 top값을 참조, left값이 비었을경우 right값 참조.*/
+  width: 100px;
+  height: 100px;
+  background: blue;
+  box-sizing: border-box; /* margin, padding 모두 합쳐 width, height만큼의 border 크기까지 한 번에 지정 */
+}
+
+.box2 {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+.box3 {
+  border: 3px solid red;
+  margin: 0px auto;
+  width: 300px;
+  height: 100px;
+  border-radius: 20px; /* 가장자리를 둥글게 */
+  background-color: aqua;
+  text-align: left; /* 좌측 정렬 */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.box4 {
+  position: fixed; /* 자신이 원하는 위치로 좌표 설정가능 */
+  width: 100px;
+  height: 100px;
+  top: 30px;
+  right: 50px;
+  background-color: greenyellow;
+}
+
+span {
+  margin-left: auto;
+  margin-right: auto;
+}
